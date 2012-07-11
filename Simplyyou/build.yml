@@ -1,0 +1,26 @@
+sdkversion: "3.3.3"
+name: "Simplyyou"
+version: "1.0"
+vendor: "rhomobile"
+build: "debug"
+bbver: "4.6"
+applog: "rholog.txt"
+iphone:
+  configuration: "Release"
+  sdk: "iphonesimulator5.0"
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: "com.rhomobile.simplyyou"
+  BundleURLScheme: "simplyyou"
+  emulatortarget: "iphone"
+wp:
+  productid: "b4e73071-ad8d-012f-8129-00ff48b875f8"
+symbian:
+  uid: "0xe30a2a0e"
+android:
+  version: "2.1"
+extensions:
+  - json
+  - another-extension
+app_type: "rhoelements"
